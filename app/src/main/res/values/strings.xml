@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoveTravel</string>
+    <string name="splash">splash</string>
+
+
+    <string name="bottomMenu_home">首页</string>
+    <string name="bottomMenu_message">消息</string>
+    <string name="bottomMenu_travel">旅行</string>
+    <string name="bottomMenu_me">我的</string>
+
+
+</resources>
