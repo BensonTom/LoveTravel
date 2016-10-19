@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="false"
-            android:background="@mipmap/icon_home_selected_0975ff"
+            android:background="@mipmap/icon_home_normal_929292"
             />
 
         <TextView
@@ -58,7 +58,7 @@
 
 
     <com.zhy.android.percent.support.PercentLinearLayout
-        android:id="@+id/id_BmMenu_layout_travel"
+        android:id="@+id/id_BmMenu_layout_shop"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -66,18 +66,18 @@
         app:layout_widthPercent="25%">
 
         <ImageButton
-            android:id="@+id/id_BmMenu_ImgBt_travel"
+            android:id="@+id/id_BmMenu_ImgBt_shop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@mipmap/icon_travel_normal_929292"
+            android:background="@mipmap/icon_shop_normal_929292"
             android:clickable="false"
             />
 
         <TextView
-            android:id="@+id/id_BmMenu_tv_travel"
+            android:id="@+id/id_BmMenu_tv_shop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/bottomMenu_travel"
+            android:text="@string/bottomMenu_shop"
             />
     </com.zhy.android.percent.support.PercentLinearLayout>
 
