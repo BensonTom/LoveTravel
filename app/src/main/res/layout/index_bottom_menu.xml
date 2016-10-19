@@ -8,7 +8,7 @@
     android:baselineAligned="false">
 
     <com.zhy.android.percent.support.PercentLinearLayout
-        android:id="@+id/id_tabBarWorld"
+        android:id="@+id/id_BmMenu_layout_home"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -16,7 +16,7 @@
         app:layout_widthPercent="25%">
 
         <ImageButton
-            android:id="@+id/id_tabBarWorld_img"
+            android:id="@+id/id_BmMenu_ImgBt_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="false"
@@ -24,7 +24,7 @@
             />
 
         <TextView
-            android:id="@+id/id_tabBarWorld_tv"
+            android:id="@+id/id_BmMenu_tv_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bottomMenu_home"
@@ -32,7 +32,7 @@
     </com.zhy.android.percent.support.PercentLinearLayout>
 
     <com.zhy.android.percent.support.PercentLinearLayout
-        android:id="@+id/id_tabBarFriends"
+        android:id="@+id/id_BmMenu_layout_message"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -40,7 +40,7 @@
         app:layout_widthPercent="25%">
 
         <ImageButton
-            android:id="@+id/id_tabBarFriends_img"
+            android:id="@+id/id_BmMenu_ImgBt_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@mipmap/icon_message_normal_929292"
@@ -48,7 +48,7 @@
             />
 
         <TextView
-            android:id="@+id/id_tabBarFriends_tv"
+            android:id="@+id/id_BmMenu_tv_message"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="2dp"
@@ -58,7 +58,7 @@
 
 
     <com.zhy.android.percent.support.PercentLinearLayout
-        android:id="@+id/id_tabBarMessage"
+        android:id="@+id/id_BmMenu_layout_travel"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -66,7 +66,7 @@
         app:layout_widthPercent="25%">
 
         <ImageButton
-            android:id="@+id/id_tabBarMessage_img"
+            android:id="@+id/id_BmMenu_ImgBt_travel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@mipmap/icon_travel_normal_929292"
@@ -74,7 +74,7 @@
             />
 
         <TextView
-            android:id="@+id/id_tabBarMessage_tv"
+            android:id="@+id/id_BmMenu_tv_travel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bottomMenu_travel"
@@ -82,7 +82,7 @@
     </com.zhy.android.percent.support.PercentLinearLayout>
 
     <com.zhy.android.percent.support.PercentLinearLayout
-        android:id="@+id/id_tabBarProfile"
+        android:id="@+id/id_BmMenu_layout_me"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:gravity="center"
@@ -90,7 +90,7 @@
         app:layout_widthPercent="25%">
 
         <ImageButton
-            android:id="@+id/id_tabBarProfile_img"
+            android:id="@+id/id_BmMenu_ImgBt_me"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@mipmap/icon_me_normal_929292"
@@ -98,7 +98,7 @@
             />
 
         <TextView
-            android:id="@+id/id_tabBarProfile_tv"
+            android:id="@+id/id_BmMenu_tv_me"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/bottomMenu_me"
